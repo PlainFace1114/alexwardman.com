@@ -4,3 +4,10 @@ body {
 h1 {
   color: #3cb371; 
 }
+
+div1 {
+  font: serif;
+  position: static;
+  text-align: center;
+  
+  {
