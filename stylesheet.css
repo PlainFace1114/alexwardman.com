@@ -10,7 +10,7 @@ p {
 }
 
 div1 {
-  font: lumanari;
+  font-family: lumanari;
   position: static;
   text-align: center;
   {
