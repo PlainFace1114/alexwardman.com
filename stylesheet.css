@@ -10,7 +10,7 @@ p {
 }
 
 div1 {
-  font-family: luminari;
+  font-family: luminari, fantasy;
   position: static;
   text-align: center;
   {
