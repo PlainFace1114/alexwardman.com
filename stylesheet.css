@@ -5,9 +5,12 @@ h1 {
   color: #3cb371; 
 }
 
+p {
+  color: #fcfcfc;
+}
+
 div1 {
   font: serif;
   position: static;
   text-align: center;
-  
   {
