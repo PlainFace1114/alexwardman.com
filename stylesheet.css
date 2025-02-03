@@ -30,7 +30,7 @@ div {
 }
 
 /* The element to apply the animation to */
-  head {
+  h1.animation {
   width: 100px;
   height: 100px;
   position: relative;
