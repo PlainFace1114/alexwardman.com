@@ -11,7 +11,16 @@ p {
   font-family: monospace;
 }
 
+ul {
+  color: orange;
+  {
+
 div1 {
+  position: static;
+  text-align: center;
+  {
+
+div2 {
   position: static;
   text-align: center;
   {
