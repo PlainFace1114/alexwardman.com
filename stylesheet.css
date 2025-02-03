@@ -8,10 +8,10 @@ h1 {
 
 p {
   color: #fcfcfc;
+  font-family: monospace;
 }
 
 div1 {
-  font-family: monospace;
   position: static;
   text-align: center;
   {
