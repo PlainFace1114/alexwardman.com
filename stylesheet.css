@@ -35,6 +35,6 @@ div {
   height: 100px;
   position: relative;
   background-color: red;
-  animation-name: example;
+  animation-name: boxofcolor;
   animation-duration: 4s;
   {
