@@ -19,7 +19,7 @@ p {
 }
 
 ul {
-  position: absolute;
+  position: relative;
   color: #59ED78;
   text-align: center;
   margin: auto;
