@@ -2,7 +2,7 @@
 function changeImage()
 {
 var img = document.getElementById("image");
-img.src="img/begin.png";
+img.src="img/";
 return false;
 }
 
@@ -17,7 +17,7 @@ MyButton.addEventListener('click', function() {
 
 const MyButton = document.getElementById('MyButton2');
     //Add on click listener for button
-MyButton.addEventListener('click', function() {
+MyButton2.addEventListener('click', function() {
         //Select (h1) heading by id, and then change it's value to (bananas)
     document.getElementById('MyHeading').innerText = "Ba5 Qb6";
 
@@ -25,7 +25,7 @@ MyButton.addEventListener('click', function() {
 
 const MyButton = document.getElementById('MyButton3');
     //Add on click listener for button
-MyButton.addEventListener('click', function() {
+MyButton3.addEventListener('click', function() {
         //Select (h1) heading by id, and then change it's value to (bananas)
     document.getElementById('MyHeading').innerText = "Bxb6#";
     }
