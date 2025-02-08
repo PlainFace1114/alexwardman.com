@@ -15,7 +15,7 @@ MyButton.addEventListener('click', function() {
     document.getElementById('MyHeading').innerText == "Qxd6 cxd6"
 })
 
-const MyButton = document.getElementById('MyButton2');
+const MyButton2 = document.getElementById('MyButton2');
     //Add on click listener for button
 MyButton2.addEventListener('click', function() {
         //Select (h1) heading by id, and then change it's value to (bananas)
@@ -23,7 +23,7 @@ MyButton2.addEventListener('click', function() {
 
 })
 
-const MyButton = document.getElementById('MyButton3');
+const MyButton3 = document.getElementById('MyButton3');
     //Add on click listener for button
 MyButton3.addEventListener('click', function() {
         //Select (h1) heading by id, and then change it's value to (bananas)
