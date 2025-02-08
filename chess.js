@@ -1,31 +1,22 @@
-function changeImage()
-{
-var img = document.getElementById("image");
-img.src="img/begin.png";
-return false;
+//chess puzzles script
+const images = ["img/begin.png", "img/move1-w.png", "img/move1-b.png", "img/move2-w.png", "img/move2-b.png", "img/mate.png"];
+const buttonTexts = ["White to Move", "Qxd6", "cxd6", "Ba5", "Qb6", "Bxb6#"];
+let currentIndex = 0;
+
+function cycleImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    document.getElementById("imageDisplay").src = images[currentIndex];
+    document.getElementById("cycleButton").textContent = buttonTexts[currentIndex];
 }
 
+function prevImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    document.getElementById("imageDisplay").src = images[currentIndex];
+    document.getElementById("cycleButton").textContent = buttonTexts[currentIndex];
+}
 
-    //Select button by id
-const MyButton = document.getElementById('MyButton');
-    //Add on click listener for button
-MyButton.addEventListener('click', function() {
-        //Select (h1) heading by id, and then change it's value to (bananas)
-    document.getElementById('MyHeading').innerText == "Qxd6 cxd6"
-})
-
-const MyButton2 = document.getElementById('MyButton2');
-    //Add on click listener for button
-MyButton2.addEventListener('click', function() {
-        //Select (h1) heading by id, and then change it's value to (bananas)
-    document.getElementById('MyHeading').innerText = "Ba5 Qb6";
-
-})
-
-const MyButton3 = document.getElementById('MyButton3');
-    //Add on click listener for button
-MyButton3.addEventListener('click', function() {
-        //Select (h1) heading by id, and then change it's value to (bananas)
-    document.getElementById('MyHeading').innerText = "Bxb6#";
-    }
-})
+function resetImage() {
+    currentIndex = 0;
+    document.getElementById("imageDisplay").src = images[currentIndex];
+    document.getElementById("cycleButton").textContent = buttonTexts[currentIndex];
+}
