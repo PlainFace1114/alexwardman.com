@@ -7,6 +7,11 @@ h1.welcome {
   text-shadow: 2px 2px #2d744d;
 }
 
+h1.MyHeading {
+  position: static;
+  text-align: center;
+}
+
 p.message {
   color: #f80606;
   font-family: monospace;
@@ -26,25 +31,44 @@ ul {
 li {
   text-align: left
 }
+
 div {
   position: relative;
   text-align: center;
 }
 
-@keyframes boxofcolor {
-  0%   {background-color:red; left:-1%; top:-99%;}
-  25%  {background-color:yellow; left:99%; top:-1%;}
-  50%  {background-color:blue; left:99%; top:99%;}
-  75%  {background-color:green; left:-1%; top:99%;}
-  100% {background-color:red; left:-1%; top:-1%;}
+img {
+  width: 40%;
+  height: 20%;
+  object-fit: cover; /* Ensures the image fills the dimensions without distortion */
+  border: 2px solid #333;
+  border-radius: 10px;
 }
 
-/* The element to apply the animation to */
-  h1.animation {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  background-color: red;
-  animation-name: boxofcolor;
-  animation-duration: 10s;
-  }
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0f4782;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8%;
+  gap: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
