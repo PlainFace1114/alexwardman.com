@@ -28,16 +28,18 @@
     <li>Playing Chess</li>
   </ul>
 </div>
-    <!-- My Heading -->
-  <h1 id="MyHeading">Click for Moves</h1>
-    <!-- My Button -->
-  <button id="MyButton">Move 1</button>
-  <button id="MyButton2">Move 2</button>
-  <button id="MyButton3">Mate</button>
 
-  <h1 id="image">Answer</h1>
-  
-  <button id="changeImage">image button</button>
+<h1 class="MyHeading">Puzzle of the day!</h1>
+
+<div class="container">
+  <img id="imageDisplay" src="img/begin.png" alt="Cycling Image">
+  <div class="buttons">
+    <button id="cycleButton" onclick="cycleImage()">Next</button>
+    <button id="cycleButton" onclick="prevImage()">Previous</button>
+    <button onclick="resetImage()">Reset</button>
+  </div>
+</div>
+
 <script src="chess.js"></script>
 
 </body>
