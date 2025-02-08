@@ -2,7 +2,7 @@
 function changeImage()
 {
 var img = document.getElementById("image");
-img.src="img/";
+img.src="img/begin.png";
 return false;
 }
 
