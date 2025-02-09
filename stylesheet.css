@@ -19,6 +19,7 @@ p.message {
 }
 
 p {
+  display: block;
   color: #fcfcfc;
   font-family: monospace;
 }
