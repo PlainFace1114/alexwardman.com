@@ -75,3 +75,10 @@ button:hover {
   display: flex;
   flex-direction: column;
 }
+
+a {
+  color: #0077cc;
+}
+a:hover {
+  color: #cc3300;
+}
